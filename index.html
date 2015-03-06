@@ -1,9 +1,26 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Hello, GitHub</title>
+  <title>{title}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="http://bluemix.net/api/v1/css/common.css">
+  <link rel="stylesheet" href="http://bluemix.net/api/v1/css/header.css">
+  <link rel="stylesheet" href="http://bluemix.net/api/v1/css/footer.css">  
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-   <h1>My first GitHub page</h1>
+  <div class="body-wrapper">
+     {header|s}
+     <div class="content-wrapper">
+        {leftNav|s}
+        <div class="main-content">
+		    <h1>Bluemix page running in GitHub for user dglozic</h1>
+        </div>
+     </div>
+     {footer|s}
+  </div>
+  <script src="http://bluemix.net/api/v1/js/header/header.js"></script>
 </body>
 </html>
